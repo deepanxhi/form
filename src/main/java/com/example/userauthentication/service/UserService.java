@@ -18,9 +18,7 @@ public class UserService {
         return userRepository.findByEmail(email);
     }
 
-	public UserDtls authenticate(Object email, Object password) {
-		// TODO Auto-generated method stub
-		return null;
+	
 	}
 	
 	public UserDtls authenticate(String email, String password) {
