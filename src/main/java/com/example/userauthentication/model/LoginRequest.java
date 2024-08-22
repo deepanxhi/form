@@ -1,15 +1,21 @@
 package com.example.userauthentication.model;
 
 public class LoginRequest {
-
-	public Object getEmail() {
-		// TODO Auto-generated method stub
-		return null;
+		String email;
+	String password;
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
-	public Object getPassword() {
-		// TODO Auto-generated method stub
-		return null;
+	public String getEmail() {
+		return email;
 	}
-
+	
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
 }
